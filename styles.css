@@ -127,6 +127,35 @@ a {
   color: var(--white);
 }
 
+.google-review {
+  min-width: 46px;
+  height: 46px;
+  padding: 0;
+  display: inline-grid;
+  place-items: center;
+  border: 2px solid rgba(11, 11, 13, 0.16);
+  border-radius: var(--radius);
+  background: var(--white);
+  text-decoration: none;
+  box-shadow: 4px 4px 0 rgba(11, 11, 13, 0.16);
+}
+
+.google-review:hover {
+  background: var(--white);
+  color: inherit;
+  border-color: var(--ink);
+}
+
+.google-g {
+  font-size: 1.35rem;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(90deg, #4285f4 0 25%, #db4437 25% 50%, #f4b400 50% 75%, #0f9d58 75% 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .nav-toggle {
   display: none;
   border: 0;
