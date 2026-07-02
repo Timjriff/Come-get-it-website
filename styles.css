@@ -71,7 +71,7 @@ a {
 }
 
 .nav-inner {
-  min-height: 82px;
+  min-height: 104px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -88,8 +88,8 @@ a {
 }
 
 .brand img {
-  width: 58px;
-  height: 58px;
+  width: 82px;
+  height: 82px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
@@ -661,8 +661,8 @@ textarea {
   }
 
   .brand img {
-    width: 50px;
-    height: 50px;
+    width: 68px;
+    height: 68px;
   }
 
   .section {
