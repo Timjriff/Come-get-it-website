@@ -177,8 +177,8 @@ a {
 
 .hero {
   background:
-    linear-gradient(110deg, rgba(11, 11, 13, 0.92), rgba(11, 11, 13, 0.78)),
-    radial-gradient(circle at 80% 20%, rgba(243, 183, 27, 0.36), transparent 34%),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.92) 0%, rgba(0, 0, 0, 0.76) 38%, rgba(0, 0, 0, 0.22) 68%, rgba(0, 0, 0, 0.08) 100%),
+    url("come-get-it-hero-junk-removal.png") center / cover no-repeat,
     var(--ink);
   color: var(--white);
   overflow: hidden;
@@ -189,7 +189,7 @@ a {
   margin: 0 auto;
   min-height: 650px;
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
   align-items: center;
   gap: 54px;
   padding: 62px 0;
@@ -248,6 +248,10 @@ h3 {
   min-height: 500px;
   display: grid;
   place-items: center;
+}
+
+.hero-photo-space {
+  min-height: 500px;
 }
 
 .logo-stage {
@@ -616,8 +620,19 @@ textarea {
     gap: 22px;
   }
 
+  .hero {
+    background:
+      linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.72) 52%, rgba(0, 0, 0, 0.35) 100%),
+      url("come-get-it-hero-junk-removal.png") center / cover no-repeat,
+      var(--ink);
+  }
+
   .hero-card {
     min-height: 380px;
+  }
+
+  .hero-photo-space {
+    min-height: 260px;
   }
 
   .quick-panel {
