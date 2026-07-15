@@ -407,9 +407,7 @@ h3 {
   min-height: 430px;
   border-radius: var(--radius);
   border: 2px solid var(--ink);
-  background:
-    linear-gradient(145deg, rgba(243, 183, 27, 0.92), rgba(255, 255, 255, 0.86)),
-    url("come-get-it-junk-removal-logo-refresh.png") center / 360px no-repeat;
+  background: url("why-customers-call.jpg") center / cover no-repeat;
   box-shadow: 10px 10px 0 var(--ink);
 }
 
